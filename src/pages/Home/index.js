@@ -1,24 +1,12 @@
 import React from 'react';
 import './style.css';
+import Header from './components/Header'
 
 
 function Home () {
     return(
         <div>
-            <header className="header">
-                <div className="toolbar">
-                    <div>
-                        <a href="/">Conect Dev</a>
-                        <input type="text"></input>
-                    </div>
-                    <div>
-                        <button>Novo Post</button>
-                        <span>img1</span>
-                        <span>img2</span>
-                    </div>
-                </div>
-            </header>
-
+           <Header />
             <div className="toolbar"></div>
             <main className="main">
                 <div className="navbar">
